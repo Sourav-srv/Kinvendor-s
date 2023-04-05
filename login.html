@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ecommerce platform</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> <!font awesome>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="header">
+            <a href="#"><img src="img/logo.png"class="logo" alt="logo" width="300"height="200"></a>
+            <h1 style="font-size:300%"><b>Kin Vendors</b></h1>
+            <div class="search-box">
+                <input type="search" class="search-txt" placeholder="type to search">
+                <a href="#" ><button class="search-btn"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button></a>  
+            </div>
+                <ul id="navbar">
+                    <li><a  href="index.html">Home</a></li><!high light>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <button class="btnLogin-popup"><a class="active"href="login.html"><b>Login</b></a></button>
+                    <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li> <!font awesome>
+                     <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+                
+            </div>
+        </section>
+        <section id="login">
+            <div class="wrapper">
+                <span class="icon-close">
+                    <ion-icon name="close-outline"></ion-icon>
+                </span>
+                <div class="form-box login">
+                    <h2>Login</h2>
+                    <form method="POST" name="google-sheet">
+                        <div class="input-box">
+                            <span class="icon"><b><ion-icon name="mail-outline"></ion-icon></b></span>
+                            <input type="email"required name="Email">
+                            <label><b>Email</b></label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <input type="password"required name="Password">
+                            <label><b>Password</b></label>
+                        </div>
+                        <div class="remember-forget">
+                            <label><input type="checkbox">Remember me </label>
+                            <a href="#">Forget Password</a>
+                        </div>
+                        <button type="Submit" class="btn">login</button>
+                        <div class="login-register">
+                            <p>Don't have an account?<a  href="#" class="register-link">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-box register">
+                    <h2>Registration</h2>
+                    <form method="POST" name="google-sheet">
+                        <div class="input-box">
+                            <span class="icon"><b><ion-icon name="person-circle-outline"></ion-icon></b></span>
+                            <input type="text"required name="Username">
+                            <label><b>Username</b></label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><b><ion-icon name="mail-outline"></ion-icon></b></span>
+                            <input type="Email"required name="Email">
+                            <label><b>Email</b></label>
+                        </div>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                            <input type="password"required name="Password">
+                            <label><b>Password</b></label>
+                        </div>
+                        <div class="remember-forget">
+                            <label><input type="checkbox">I agree to the terms & conditions</label>
+                            <a href="#">Forget Password</a>
+                        </div>
+                        <button type="Submit" class="btn">Register</button>
+                        <div class="login-register">
+                            <p>Already have an account?<a  href="#" class="login-link">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+       <section id="footer" class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Bhushan Bhawan near block Jhajha,jamui(Bihar),Pin:-811308</p>
+            <p><strong>Phone:</strong>+91 9110166656</p>
+            <p><strong>Hours:</strong>10:00 AM-6:00 PM,Mon-Sat</p>
+            <div class="Follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/sourav.rathor.963"><i class="fab fa-facebook-f"></i></a>
+                   <a href="https://twitter.com/SouravYaduvan11"> <i class="fab fa-twitter"></i></a>
+                   <a href="https://www.instagram.com/srv_yaduvanshi/"><i class="fab fa-instagram"></i></a> 
+                    <a href="https://www.youtube.com/@souravyaduvanshi8434/featured"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/in/sourav-kumar-737a96209/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About us</a>
+            <a href="deliveryinformation.html">Delivery Information</a>
+            <a href="privacy.html"> Privacy policy</a>
+            <a href="condition.html"> Terms & Conditions</a>
+            <a href="contact.html"> Contact </a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="sign.html">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <a href="wishlist.html"> My Wishlist</a>
+            <a href="track.html"> Track My order</a>
+            <a href="contact.html"> Help </a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store Or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="playstore">
+                <img src="img/pay/play.jpg" alt="appstore">
+            </div>
+            <p>Secured payment Gateways</p>
+            <img src="img/pay/pay.png" alt="payment">
+        </div>
+        <div class="copyright">
+            <p>© 2023 Kin Vendors. All Rights Reserved.</p>
+        </div>
+       </section>
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script><!ionicons>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxRhkVfBpbx6jaJGfKfKHli7NAqPfJt21TAs9sHIfRwZsaMQpRPUiPoTOCssfYTv-SC/exec'
+            const form = document.forms['google-sheet']
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("You have sucesfully login..! welcome to Kin Vendors..!"))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
